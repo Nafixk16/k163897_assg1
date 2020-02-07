@@ -1,0 +1,46 @@
+body {
+  display: inline-block;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    315deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+h1 {
+  text-align: center;
+}
+.container {
+  color: blanchedalmond;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  display: inline-block;
+  margin: 0.5%;
+  width: 30%;
+  padding-left: 2px;
+  background-color: rgba(0, 0, 0, 0.342);
+}
+.tag {
+  float: right;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  padding: 1%;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 40%;
+  }
+  #container3 {
+    width: 82.5%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+  #container3 {
+    width: 90%;
+  }
+}
